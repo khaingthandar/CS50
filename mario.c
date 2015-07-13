@@ -8,6 +8,7 @@ int main(void)
   do
   {
     n = GetInt;
+    printf("Height: %i", n);
   }
   while( n > 0 || n < 23 )
   {
